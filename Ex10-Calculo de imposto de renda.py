@@ -33,10 +33,8 @@ for caso in testes:
     print("CONTRACHEQUE — Cálculo de IR Mensal")
     print("====================================")
     print(f"Salário bruto:       R$ {salario:.2f}\n")
-
-    # ======================
-    # INSS
-    # ======================
+
+    # INSS
     inss = 0
     anterior = 0
 
@@ -50,9 +48,8 @@ for caso in testes:
 
     print(f"(-) INSS total:      R$ {inss:.2f}\n")
 
-    # ======================
+
     # Deduções
-    # ======================
     desc_dep = dependentes * 189.59
     desc_idoso = 1903.98 if idoso else 0
 
@@ -62,9 +59,8 @@ for caso in testes:
 
     print(f"Base de cálculo IR:  R$ {base:.2f}\n")
 
-    # ======================
-    # IR
-    # ======================
+
+    # IR
     ir = 0
     anterior = 0
 
@@ -78,12 +74,12 @@ for caso in testes:
 
     print(f"\n(-) IR total:        R$ {ir:.2f}")
 
-    # ======================
+   
     # Final
-    # ======================
+ 
     liquido = salario - inss - ir
 
-    print("====================================")
+  
     print(f"Salário líquido:     R$ {liquido:.2f}")
-    print("====================================\n")
+
   
