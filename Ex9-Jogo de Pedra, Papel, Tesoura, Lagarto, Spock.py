@@ -8,7 +8,7 @@ opcoes = {
     5: "Spock"
 }
 
-# Regras: quem vence quem + ação
+# Regras: quem vence + ação
 regras = {
     1: {3: "quebra", 4: "esmaga"},       # Pedra
     2: {1: "cobre", 5: "refuta"},        # Papel
