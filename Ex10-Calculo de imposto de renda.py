@@ -28,10 +28,8 @@ for caso in testes:
     dependentes = caso["dependentes"]
     pensao = caso["pensao"]
     idoso = caso["idoso"]
-
-    print("====================================")
-    print("CONTRACHEQUE — Cálculo de IR Mensal")
-    print("====================================")
+
+    print("CONTRACHEQUE — Cálculo de IR Mensal")
     print(f"Salário bruto:       R$ {salario:.2f}\n")
 
     # INSS
